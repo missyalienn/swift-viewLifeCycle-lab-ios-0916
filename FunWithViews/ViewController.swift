@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
         let randomNumber = randomDiceRoll()
         print("Number generated is\(randomNumber)")
-        rearrangeDie()
         
     }
     
@@ -59,6 +58,5 @@ class ViewController: UIViewController {
     // show or hide black boxes  based on result of randomDiceRoll function
     
 
-        
-}
+
 
